@@ -1,0 +1,738 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.contened1{
+  width: 100%;
+  max-width: 100%;
+  margin: 0 auto;
+  background: transparent;}
+
+body{
+  font-family: "Lucida Sans", sans-serif;
+  background-color: rgb(235, 235, 235);
+  margin: 0;
+  height: auto;
+}
+/* Parte superior*/
+header{
+  margin: 3px auto;
+  background-image: linear-gradient(to bottom right, purple, gray);
+  color: rgb(255, 255, 255);
+  padding: 5px;
+  border-radius: 4px;
+  box-sizing: border-box;
+  width: 99%;
+  height: 120px;
+}
+.logo{
+  float: left;
+  margin-left: 2%;
+  width: 160px;
+  height: 112px;
+  color: #fff;
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+  border-radius: 4px;
+}
+.acme{
+  float: left;
+  width: 350px;
+  height: 90px;
+  margin-top: 1%;
+  margin-left: 20%;
+  }
+.usuario{
+  float: right;
+  margin-top: 20px;
+  margin-right: 2%;
+  width: 50px;
+  height: auto;
+  background-image: linear-gradient(to bottom right, gray, purple);
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  padding: 5px 5px;
+  box-sizing: border-box;
+  font-size: 50px;
+  text-align: center;
+}
+.usuario:hover{
+  background-image: linear-gradient(to bottom right, gray, purple);
+  color: #ebfffb;
+  box-shadow: 1px 1px 20px rgba(255, 255, 255, 0.5);
+}
+/* Parte navegador*/
+.tab {
+  width: 99%;
+  height: auto;
+  padding: 5px 5px;
+  margin: 0 0.5%;
+  overflow: hidden;
+  border-radius: 5px;
+  text-align: center;
+  background-image:linear-gradient(to bottom right, gray, white);
+}
+/* Style the buttons inside the tab */
+.tab button {
+  color: purple;
+  margin-left: 1px;
+  font-weight: bold;
+  text-shadow: 1px 1px 20px rgba(255, 255, 255, 0.5);
+  float: left;
+  border: none;
+  width: 15%;
+  outline: none;
+  border-radius: 1px;
+  height: auto;
+  cursor: pointer;
+  padding: 10px 15px;
+  font-size: 17px;
+}
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-image: linear-gradient(to top left, lightgray, purple);
+  color: white;
+  text-shadow: 1px 1px 20px rgba(0, 0, 0, 0.5);
+  transition: 0.2s;
+}
+/* Create an active/current tablink class */
+.tab button.active {
+  background-image: linear-gradient(to top left, purple, lightgray);
+  color: white;
+  text-shadow: 1px 1px 20px rgba(0, 0, 0, 0.5);
+}
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 1px;
+  border-top: none;
+}
+/* Barra de busqueda*/
+#searchform{
+  display: inline;
+  font-size: 20px;
+  margin-top: 5px;
+  border-radius: 8em;
+  border: 0.1em solid purple;
+  box-shadow: 0 0 0.3em rgba(60, 60, 60, 0.4);
+  padding: 0.3em;
+  background: lightgray;
+}
+#s{
+  transition: all 0.2s ease-out;
+  width: 1px;
+  border-radius: 0;
+  box-shadow: none;
+  outline: none;
+  padding: 0;
+  margin: 0;
+  border: 0;
+  background-color: transparent;
+  opacity: 0;
+}
+i{
+  color: purple;
+}
+#s:focus {
+  width: 10em;
+  opacity: 1;
+}
+label {
+  padding-left: 1px;
+  display: inline-block;
+  margin-top: 0.3em;
+  color: #dad0be;
+  text-shadow: 0 0 0.1em rgba(60, 60, 60, 0.3);
+  position: relative;
+  left: 0.1em;
+}
+/*Seccion*/
+.section{
+  padding: 10px 0;
+  background-image: linear-gradient(to bottom right, white, lightgray);
+  width: 95%;
+  height: auto;
+  margin: 4px 0;
+  float: left;
+  border-radius: 5px;
+  margin-left: 35px;
+}
+/* Carrusel de fotos*/
+#slider-ins{
+  width:45%;
+  height:45%;
+  float: left;
+  border-radius:10px;
+  right: -100px;
+  top: 50px;
+}
+/* Informacion de inicio*/
+.infor{
+  width: 45%;
+  float: left;
+  padding-left: 30px;
+}
+.infor h1{
+  padding: 8px 6px;
+  margin-top: 4px;
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+  color: purple;
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
+}
+.infor p{
+  font-size: 20px;
+  text-align: justify;
+  line-height: 35px;
+}
+/* PARte del footer*/
+footer{
+  margin: 3px 7px;
+  bottom: -120px;
+  background-image: linear-gradient(to bottom right, gray, purple);
+  color: rgb(255, 255, 255);
+  width: 99%;
+  border-radius: 3px;
+  justify-content: center;
+  overflow: hidden;
+  height: auto;
+}
+.contenedor{
+  padding: 2px 2px;
+  margin: auto;
+}
+.fot1{
+  width: 33%;
+  padding: 4px 20px;
+  overflow: hidden;
+  float: left;
+}
+.fot1 h2{
+  text-align: center;
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+}
+.fot1 p{
+  font-size: 15px;
+  text-align: left;
+  padding-top: 10px;
+}
+.fot1 a{
+  font-size: 15px;
+  margin-left: 150px;
+  margin-bottom: 20px;
+  color: #fff;
+}
+.fot2{
+  padding: 4px 20px;
+  width: 33%;
+  float: left;
+  overflow: hidden;
+}
+.fot2 h2{
+  text-align: center;
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+}
+.fot2 p{
+  font-size: 15px;
+  text-align: left;
+  padding-top: 10px;
+}
+.fot3{
+  padding: 4px 20px;
+  width: 33%;
+  float: left;
+}
+.fot3 h2{
+  text-align: center;
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+}
+.fot3 img{
+  border-radius: 60px;
+  padding: 8px;
+  box-sizing: border-box;
+  width: 18%;
+  height: 100%;
+  bottom: -5%;
+  left: 15%;
+}
+.fot3 img:hover{
+  cursor: pointer;
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
+}
+.fot4 p{
+  padding: 8px 0 8px 0;
+  text-align: center;
+  width: 99%;
+  border-top: 1px solid rgba(255,255,255,.4);
+  overflow: hidden;
+  font-size: 14px;
+}
+
+/* Parte de admisiones*/
+.sup{
+  padding: 5px 2px;
+  width: 100%;
+  background-image: linear-gradient(to top left, white, lightgray);
+  border-radius: 5px;
+}
+.sup h1{
+  font-size: 40px;
+  color: purple;
+  font-weight: bold;
+  text-align: center;
+}
+.pasos{
+  width: 100%;
+  height: 450px;
+  margin-left: 20px;
+  border: 1px 1px 1px 1px SOLID BLACK;
+}
+.paso1, .paso2, .paso3{
+  width: 33%;
+  float: left;
+}
+figure img{
+  width: 100px;
+  height: 200px;
+  margin-left: 150px;
+  justify-content: center;
+  color: purple;
+}
+figure h3{
+  text-align: center;
+  font-weight: bold;
+  padding: 0 5px;
+  color: purple;
+}
+figcaption{
+  font-size: 20px;
+  line-height: 28px;
+  padding: 0 20px;
+  text-align: justify;
+  vertical-align: top;
+}
+.inf{
+  padding: 5px 2px;
+  width: 100%;
+  background-image: linear-gradient(to bottom right, white, lightgray);
+  border-radius: 5px;
+  text-align: center;
+}
+.btn1, .btn2, .btn3{
+  float: left;
+  width: 33%;
+  padding: 20px;
+  font-size: 20px;
+}
+.inf input{
+  padding: 2px 15px;
+  border-radius: 8px;
+  background-image: linear-gradient(to bottom right, gray, purple);
+  color: white;
+  font-weight: bold;
+}
+.inf input:hover{
+  cursor: pointer;
+  color: BLACK;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+}
+.termino{
+  font-size: 15px;
+}
+/* Parte de Cronograma*/
+.mes{
+  padding: 30px 25px;
+  height: auto;
+  width: 100%;
+  background-image: linear-gradient(to bottom right, purple, gray);
+  text-align: center;
+}
+ul{
+  list-style-type: none;
+}
+.mes ul {
+  margin: 0;
+  padding: 0;
+}
+
+.mes ul li {
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+.mes .prev {
+  float: left;
+  padding-top: 10px;
+}
+.mes .next {
+  float: right;
+  padding-top: 10px;
+}
+.semana{
+  margin: 0;
+  padding: 10px 1px;
+  background-color: #ddd;
+}
+.semana li{
+  display: inline-block;
+  width: 13.6%;
+  color: #666;
+  text-align: center;
+  font-weight: bold;
+  font-size: 25px;
+}
+.dias{
+  padding: 15px 0;
+  background: #eee;
+  margin: 0;
+}
+.dias li{
+  list-style-type: none;
+  display: inline-block;
+  width: 13.6%;
+  padding: 14px 0;
+  text-align: center;
+  margin-bottom: 5px;
+  font-size:18px;
+  font-weight: bold;
+  color: #777;
+}
+.dias li .active{
+  padding: 5px;
+  border-radius: 4px;
+  background-image: linear-gradient(to bottom right, gray, purple);
+  color: white !important
+}
+#evento{
+  width: 100%;
+  background-image: linear-gradient(to bottom right, lightgray, white);
+  height: auto;
+}
+#evento input{
+  font-size: 20px;
+  width: 50%;
+  margin-left: 350px;
+  margin-top: 20px;
+  border: none;
+  border-radius: 5px;
+  background-image: linear-gradient(to bottom right, white, lightgray);
+}
+/* Parte de servicios*/
+.sec1{
+  width: 48%;
+  margin-left: 10px;
+  padding: 10px 0;
+  height: auto;
+  float: left;
+}
+.sec2{
+  width: 48%;
+  padding: 10px 0;
+  height: auto;
+  float: left;
+}
+.sec1 h2{
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  color: purple;
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
+}
+.r1, .r2, .r3{
+  width: 100%;
+  padding: 25px;
+}
+.r1,.r3 p{
+  width: 96%;
+  text-align: center;
+  font-size: 18px;
+}
+.r2 p{
+  width: 96%;
+  text-align: justify;
+  margin-left: 14px;
+}
+.sec1 input{
+    padding: 2px 15px;
+    border-radius: 8px;
+    background-image: linear-gradient(to bottom right, gray, purple);
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+.section input:hover{
+  cursor: pointer;
+  color: BLACK;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+}
+.r2 input{
+  margin-left: 35%;
+}
+.r3 input{
+  margin-left: 19%;
+}
+img{
+  width: 98%;
+  height: 290px;
+  margin-left: 12px;
+  padding: 10px 0;
+  border-radius: 15px;
+}
+/* Parte de nuestro colegio*/
+.inf_sup{
+  width: 100%;
+  height: auto;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.inf_sup h1{
+  margin-top: 20px;
+  font-size: 40px;
+  color: purple;
+  font-weight: bold;
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
+}
+.inf_inf{
+  margin-top: 10px;
+  width: 100%;
+  float: left;
+}
+.p1, .p2, .p3, .p4{
+  width: 50%;
+  float: left;
+}
+.p4{
+  margin-left: 250px;
+}
+.p1, .p2, .p3, .p4 p{
+  font-size: 20px;
+  line-height: 28px;
+  padding: 0 20px;
+  text-align: justify;
+  vertical-align: top;
+}
+.section h4{
+  font-size: 25px;
+  color: purple;
+  font-weight: bold;
+  text-align: center;
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
+}
+video{
+  width: 100%;
+  height: 360px;
+  float: left;
+  margin-left: 52%;
+}
+
+/* Parte responsiva */
+
+@media screen and (max-width: 1250px){
+  .tab button{
+    width: 15%;
+    font-size: 15px;
+  }
+  .tab{
+    height: auto;
+  }
+  .tab button{
+    padding: 10px 0;
+  }
+  video{
+    width: 100%;
+    float: center;
+    height: auto;
+  }.r3 input{
+    margin-left: 10%;
+  }
+}
+@media screen and (max-width: 980px){
+  .logo{
+    width: 12%;
+    height: 90%;
+  }
+  .acme{
+    display: none;
+  }
+  .usuario{
+    width: 8%;
+    height: 60%;
+  }
+  .fot3 img{
+    width: 25%;
+    height: 70%;
+    margin-left: 5%;
+  }
+  .tab{
+    width: 99%;
+    height: auto;
+    margin: 0;
+    border-radius: 5px;
+    display: block;
+    float: none;
+    margin: 0 0.5%;
+  }
+  .tab button{
+    display: block;
+    padding: 12px 0;
+    width: 100%;
+    text-align: center;
+    border-bottom: 1px solid rgba(160, 166, 169, 0.5);
+  }
+  .section{
+    width: 96%;
+    margin-left: 15px;
+    height: auto;
+  }
+  #searchform{
+    margin: 20px 0;
+  }
+  .section .infor{
+    width: 100%;
+    height: auto;
+    padding: 25px;
+  }
+  .section #slider-ins{
+    width: 100%;
+    height: auto;
+    right: 0;
+    padding: 15px;
+    top: 0;
+  }
+  .pasos{
+    height: 500px;
+  }
+  figure img{
+    margin-left: 85px;
+    width: 75px;
+  }
+  video{
+    height: auto;
+    margin-right: -300px;
+  }
+  .p1, .p2, .p3, .p4{
+    width: 100%;
+  }
+  .p4{
+    margin-left: 0;
+  }
+  .r3 input{
+    margin-left: 0;
+    font-size: 18px;
+  }
+  .sec2 img{
+    height: 300px;
+    padding: 40px 0;
+  }
+}
+@media screen and (max-width:800px) {
+  .sec1 {
+    width: 100%;
+    height: auto;
+    margin-left: 0;
+  }
+  .sec2{
+    width: 100%;
+    height: auto;
+  }
+  .sec1 p{
+    font-size: 20px;
+  }
+  .r3 input{
+    margin-left: 142px;
+  }
+  .sec2 img{
+    height: 330px;
+    padding: 15px;
+    border-radius: 10px;
+  }
+}
+@media screen and (max-width:700px){
+  .fot3 img{
+    margin-top: 10%;
+    width: 25%;
+    height: 7%;
+  }
+  .logo{
+    width: 20%;
+    height: 100%;
+  }
+  .acme{
+    display: none;
+  }
+  .usuario{
+    width: 10%;
+    height: auto;
+  }
+  .pasos{
+    height: 570px;
+  }
+  figure img{
+    margin-left: 45px;
+  }
+  .btn1, .btn2, .btn3{
+    width: 100%;
+    border-radius: 10px;
+    padding: 5px;
+  }
+  video{
+    height: auto;
+    margin-right: 0;
+  }
+  .sec2 img{
+    padding: 35px 0;
+  }
+}
+@media screen and (max-width:550px) {
+  .fot3 img{
+    width: 55%;
+    height: auto;
+  }
+  .contenedor h2{
+    font-size: 14px;
+    font-weight: bold;
+  }
+  .pasos{
+    height: 750px;
+    margin: 0;
+  }
+  .paso1, .paso2, .paso3{
+    width: 100%;
+    float: left;
+  }
+  figure img{
+    margin-left: 150px;
+    height: 100px;
+  }
+  figure h3{
+    padding: 0;
+  }
+}
+@media screen and (max-width:400px){
+  .section{
+    float: none;
+    width: 98%;
+    padding:0;
+    margin: 0;
+  }
+  .section #slider-ins{
+    width: 100%;
+    height: 50%;
+  }
+  .r2 input{
+    margin-left: 85px;
+  }
+  .r3 input{
+    margin-left: -5px;
+  }
+}
