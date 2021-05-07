@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximun-scale=1.0, minimun-scale=1.0">
+<link rel="stylesheet" href="CSS/style_admin.css">
+<script type="text/javascript" src="JAVASCRIPT/java_admin.js"></script>
+<link rel="stylesheet" href="fonts/style.css">
+
+</head>
+<body>
+    <section id="contenedor">
+        <section id="informacion">
+            <section id="foto">
+              <img class="fotoperfil" src="imagenes/fotoperfil.png" alt="fotoperfil">
+              <h1 id="estudiante">Administrador</h1>
+            </section>
+            <section id="datos">
+                <section id="caja-datos">
+                  <div class="user">
+                    <h1><span class="icon-user"></span>Jose</h1>
+                  </div>
+                  <div class="cedula">
+                    <h1><span class="icon-v-card"></span>10867036</h1>
+                  </div>
+                    <div class="fecha">
+                      <h1><span class="icon-calendar"></span>02/01/1997</h1>
+                    </div>
+                    <div class="direccion">
+                      <h1><span class="icon-direction"></span>Medellin</h1>
+                    </div>
+                </section>
+            </section>
+            <section id="cerrar">
+                <a href="index.html"><img class="cerrarsesion" src="imagenes/cerrarsesion.png"></a>
+            </section>
+        </section>
+        <section id="centro">
+        <div class="tab">
+                    <button class="tablinks" onclick="open1(event, 'Profesores')">Profesores</button>
+                    <button class="tablinks" onclick="open1(event, 'Estudiantes')">Estudiantes</button>
+                    <button class="tablinks" onclick="open1(event, 'Asignatura')">Asignatura</button>
+        </div>
+          <div id="Profesores" class="tabcontent">
+            <div class="tab2">
+              <button class="tablinks2" onclick="open2(event, 'Sexto Grado A')">Sexto Grado A</button>
+              <button class="tablinks2" onclick="open2(event, 'Septimo Grado B')">Septimo Grado B</button>
+              <button class="tablinks2" onclick="open2(event, 'Octavo Grado A')">Octavo Grado A</button>
+            </div>
+          <section id=tablas>
+            <div id="Sexto Grado A" class="tabcontent2">
+              <section id="buscador">
+                <input type="search" id="input-search" placeholder="Buscar profesor">
+              </section>
+              <table>
+                <thead>
+                  <tr>
+                    <th>Profesor</th><th>Asignado</th>
+                  </tr>
+                </thead>
+                <tr>
+                  <td>Anderson Burgos<span class="icon-pencil"></span></td><td>SI <span class="icon-pencil"></span></td>
+                </tr>
+                <tr>
+                  <td>Cristian Perez <span class="icon-pencil"></span></td><td>SI <span class="icon-pencil"></span></td>
+                </tr>
+                <tr>
+                  <td>Lina Pacheco <span class="icon-pencil"></span></td><td>SI <span class="icon-pencil"></span></td>
+                </tr>
+                <tr>
+                  <td>Anderson Burgos<span class="icon-pencil"></span></td><td>SI <span class="icon-pencil"></span></td>
+                </tr>
+                <tr>
+                  <td>Cristian Perez <span class="icon-pencil"></span></td><td>SI <span class="icon-pencil"></span></td>
+                </tr>
+               
+              </table>
+            </div>
+            
+            <div id="Septimo Grado B" class="tabcontent2">
+              <section id="buscador">
+                <input type="search" id="input-search" placeholder="Buscar profesor">
+              </section>
+              <table>
+                <thead>
+                  <tr>
+                    <th>Profesor</th><th>Asignado</th>
+                  </tr>
+                </thead>
+                <tr>
+                  <td>Andres Escobar <span class="icon-pencil"></span></td><td>SI <span class="icon-pencil"></span></td>
+                </tr>
+                <tr>
+                  <td>Cristina Paez<span class="icon-pencil"></span></td><td>NO <span class="icon-pencil"></span></td>
+                </tr>
+                <tr>
+                  <td>Lina Pacheco<span class="icon-pencil"></span></td><td>SI <span class="icon-pencil"></span></td>
+                </tr>
+                <tr>
+                  <td>Andres Escobar <span class="icon-pencil"></span></td><td>SI <span class="icon-pencil"></span></td>
+                </tr>
+                <tr>
+                  <td>Cristina Paez<span class="icon-pencil"></span></td><td>NO <span class="icon-pencil"></span></td>
+                </tr>
+                
+              </table>
+            </div>
+            
+          <div id="Octavo Grado A" class="tabcontent2">
+            <section id="buscador">
+              <input type="search" id="input-search" placeholder="Buscar profesor">
+            </section>
+              <table>
+                <thead>
+                  <tr>
+                    <th>Profesor</th><th>Asignado</th>
+                  </tr>
+                </thead>
+                <tr>
+                  <td>Andrea Fernandez <span class="icon-pencil"></span></td><td>SI <span class="icon-pencil"></span></td>
+                </tr>
+                <tr>
+                  <td>Wilso Vasqez <span class="icon-pencil"></span></td><td>NO <span class="icon-pencil"></span></td>
+                </tr>
+                <tr>
+                  <td>Efrain Acosta <span class="icon-pencil"></span></td><td>NO <span class="icon-pencil"></span></td>
+                </tr>
+                <tr>
+                  <td>Andrea Fernandez <span class="icon-pencil"></span></td><td>SI <span class="icon-pencil"></span></td>
+                </tr>
+                <tr>
+                  <td>Wilso Vasqez <span class="icon-pencil"></span></td><td>NO <span class="icon-pencil"></span></td>
+                </tr>
+                
+              </table>
+            </div>
+          </section>
+          </div>
+          <div id="Estudiantes" class="tabcontent">
+              <div class="tab2">
+                <button class="tablinks2" onclick="open2(event, 'Sexto Grado')">Sexto Grado</button>
+                <button class="tablinks2" onclick="open2(event, 'Septimo Grado')">Septimo Grado</button>
+                <button class="tablinks2" onclick="open2(event, 'Octavo Grado')">Octavo Grado</button>
+              </div>
+              <section id=tablas>
+            <div id="Sexto Grado" class="tabcontent2">
+              <section id="buscador">
+                <input type="search" id="input-search" placeholder="Buscar Estudiante">
+              </section>
+              <table>
+                <thead>
+                  <tr>
+                    <th>Estudiante  </th><th>Codigo </span> </th>
+                  </tr>
+                </thead>
+                <tr>
+                  <td>Anderson Burgos <span class="icon-pencil"></span> </td><td>19204654 <span class="icon-pencil"></span></td>
+                </tr>
+                <tr>
+                  <td>Cristian Perez <span class="icon-pencil"></span> </td><td>085377988 <span class="icon-pencil"></span> </td>
+                </tr>
+                <tr>
+                  <td>Lina Pacheco <span class="icon-pencil"></span> </td><td>0987664321 <span class="icon-pencil"></span></td>
+                </tr>
+                <tr>
+                  <td>Anderson Burgos <span class="icon-pencil"></span></td><td>9865345789 <span class="icon-pencil"></span></td>
+                </tr>
+                <tr>
+                  <td>Cristian Perez <span class="icon-pencil"></span></td><td>87654677009 <span class="icon-pencil"></span></td>
+                </tr>
+                <tr>
+                  <td>Lina Pacheco <span class="icon-pencil"></span> </td><td>9764335789 <span class="icon-pencil"></span></td>
+                </tr>
+              </table>
+           
+          </div>
+            
+            <div id="Septimo Grado" class="tabcontent2">
+              <section id="buscador">
+                <input type="search" id="input-search" placeholder="Buscar Estudiante">
+              </section>
+              <table>
+                <thead>
+                  <tr>
+                    <th>Estudiante</th><th>Codigo</th>
+                  </tr>
+                </thead>
+                <tr>
+                  <td>Anderson Burgos <span class="icon-pencil"></span></td><td>19204654 <span class="icon-pencil"></span></td>
+                </tr>
+                <tr>
+                  <td>Cristian Paez <span class="icon-pencil"></span> </td><td>085377988 <span class="icon-pencil"></span></td>
+                </tr>
+                <tr>
+                  <td>Lina Murillo <span class="icon-pencil"></span> </td><td>0987664321 <span class="icon-pencil"></span></td>
+                </tr>
+                <tr>
+                  <td>Anderson Buitron <span class="icon-pencil"></span> </td><td>9865345789 <span class="icon-pencil"></span></td>
+                </tr>
+                <tr>
+                  <td>Cristian Pelaez <span class="icon-pencil"></span> </td><td>87654677009 <span class="icon-pencil"></span></td>
+                </tr>
+                <tr>
+                  <td>Lina Burgos <span class="icon-pencil"></span> </td><td>9764335789 <span class="icon-pencil"></span> </td>
+                </tr>
+              </table>
+            </div>
+            
+          <div id="Octavo Grado" class="tabcontent2">
+            <section id="buscador">
+              <input type="search" id="input-search" placeholder="Buscar Estudiante">
+            </section>
+              <table>
+                <thead>
+                  <tr>
+                    <th>Estudiante</th><th>Codigo</th>
+                  </tr>
+                </thead>
+                <tr>
+                  <td>Anderson Burgos <span class="icon-pencil"></span> </td><td>19204654 <span class="icon-pencil"></span> </td>
+                </tr>
+                <tr>
+                  <td>Cristian Quintero <span class="icon-pencil"></span> </td><td>085377988 <span class="icon-pencil"></span></td>
+                </tr>
+                <tr>
+                  <td>Lina Jaramillo <span class="icon-pencil"></span> </td><td>0987664321 <span class="icon-pencil"></span></td>
+                </tr>
+                <tr>
+                  <td>Anderson kingston <span class="icon-pencil"></span> </td><td>9865345789 <span class="icon-pencil"></span> </td>
+                </tr>
+                <tr>
+                  <td>Cristian Pino <span class="icon-pencil"></span> </td><td>87654677009 <span class="icon-pencil"></span> </td>
+                </tr>
+                <tr>
+                  <td>Lina Muñoz <span class="icon-pencil"></span> </td><td>9764335789 <span class="icon-pencil"></span> </td>
+                </tr>
+                <tr>
+                  <td>Cristian Tan<span class="icon-pencil"></span> </td><td>085377988 <span class="icon-pencil"></span> </td>
+                </tr>
+                <tr>
+                  <td>Lina Pacheco <span class="icon-pencil"></span> </td><td>0987664321 <span class="icon-pencil"></span></td>
+                </tr>
+                <tr>
+                  <td>Anderson Burgos <span class="icon-pencil"></span> </td><td>9865345789 <span class="icon-pencil"></span></td>
+                </tr>
+              </table>
+            </div>
+          </section>
+          </div>
+    
+          <div id="Asignatura" class="tabcontent">
+                <div class="tab2">
+                  <button class="tablinks2" onclick="open2(event, 'Quimica')">Quimica</button>
+                  <button class="tablinks2" onclick="open2(event, 'Fisica')">Fisica</button>
+                  <button class="tablinks2" onclick="open2(event, 'Matematicas')">Matematicas</button>
+                </div>
+              <section id=tablas>
+                <div id="Quimica" class="tabcontent2">
+                  <section id="buscador">
+                    <input type="search" id="input-search" placeholder="Buscar estudiante">
+                  </section>
+                  <table>
+                    <thead>
+                      <tr>
+                        <th>Profesor</th><th>Asignado</th>
+                      </tr>
+                    </thead>
+                    <tr>
+                      <td>Anderson Burgos<span class="icon-pencil"></span></td><td>Quimica Sexto <span class="icon-pencil"></span></td>
+                    </tr>
+                    <tr>
+                      <td>Cristian Perez <span class="icon-pencil"></span></td><td>Quimica Septimo <span class="icon-pencil"></span></td>
+                    </tr>
+                    <tr>
+                      <td>Lina Pacheco <span class="icon-pencil"></span></td><td>Quimica Octavo <span class="icon-pencil"></span></td>
+                    </tr>
+                  </table>
+                </div>
+                
+                <div id="Fisica" class="tabcontent2">
+                  <section id="buscador">
+                    <input type="search" id="input-search" placeholder="Buscar profesor">
+                  </section>
+                  <table>
+                    <thead>
+                      <tr>
+                        <th>Profesor</th><th>Asignado</th>
+                      </tr>
+                    </thead>
+                    <tr>
+                      <td>Anderson Burgos<span class="icon-pencil"></span></td><td>Fisica Sexto <span class="icon-pencil"></span></td>
+                    </tr>
+                    <tr>
+                      <td>Cristian Perez <span class="icon-pencil"></span></td><td>Fisica Septimo <span class="icon-pencil"></span></td>
+                    </tr>
+                    <tr>
+                      <td>Lina Pacheco <span class="icon-pencil"></span></td><td>Fisica Octavo <span class="icon-pencil"></span></td>
+                    </tr>
+                  </table>
+                </div>
+                
+              <div id="Matematicas" class="tabcontent2">
+                <section id="buscador">
+                  <input type="search" id="input-search" placeholder="Buscar profesor">
+                </section>
+                  <table>
+                    <thead>
+                      <tr>
+                        <th>Profesor</th><th>Asignado</th>
+                      </tr>
+                    </thead>
+                    <tr>
+                      <td>Anderson Burgos<span class="icon-pencil"></span></td><td>Matematicas Sexto <span class="icon-pencil"></span></td>
+                    </tr>
+                    <tr>
+                      <td>Cristian Perez <span class="icon-pencil"></span></td><td>Matematicas Septimo <span class="icon-pencil"></span></td>
+                    </tr>
+                    <tr>
+                      <td>Lina Pacheco <span class="icon-pencil"></span></td><td>Matematicas Octavo <span class="icon-pencil"></span></td>
+                    </tr>
+                  </table>
+                </div>
+              </section>
+              </div>
+         </section>
+            </div>
+            
+          <section id="guardar">
+            <a href="index.html"><img class="guardarcambios" src="IMAGENES/guardar.png"></a>
+          </section>
+          
+              <footer>
+                <p>Derechos reservados &copy; ACME 2019-2020.</p>
+              </footer>
+      </section>
+                
+
+</body>
+</html> 

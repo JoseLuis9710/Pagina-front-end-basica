@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minumum-scale=1.0">
+  <meta charset="utf-8">
+  <title>INSTITUCIÓN EDUCATIVA ACME</title>
+  <link rel="stylesheet" href="CSS/inicio.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/3.0/css/font-awesome.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="JAVASCRIPT/java_pagina.js"></script>
+</head>
+<body>
+  <div class="contened1">
+    <header>
+      <img class="logo" src="IMAGENES/logo_acme.png">
+      <img class="acme" src="IMAGENES/acme.png">
+      <input class="usuario" type="image" name="button" src="IMAGENES/usuario-hombre.png" onclick="window.location.href='index.html'"></input>
+      <a href="#" class=" hidden-sm hidden-md hidden-lg pull-right button-menu-mobile show-close-menu-m"><i class="fa fa-ellipsis-v"></i></a>
+    </header>
+    <div class="tab">
+      <button class="tablinks" onclick="openCity(event, 'inicio')" id="defaultOpen">INICIO</button>
+      <button class="tablinks" onclick="openCity(event, 'admisiones')">ADMISIONES</button>
+      <button class="tablinks" onclick="openCity(event, 'cronograma')">CRONOGRAMA</button>
+      <button class="tablinks" onclick="openCity(event, 'servicios')">SERVICIOS</button>
+      <button class="tablinks" onclick="openCity(event, 'acme')">ACERCA DE ACME</button>
+      <form role="search" action="" method="get" id="searchform">
+        <label for="s">
+          <i class="icon-search"></i>
+        </label>
+        <input type="text" value="" placeholder="Buscar" class="" id="s">
+      </form>
+    </div>
+
+    <div id="inicio" class="tabcontent">
+
+      <div class="section">
+        <div class="infor">
+          <h1>MISIÓN</h1>
+          <p>EL instituto Pedagódigo ACME centra su compromiso en la formación integral  de la persona, a partir de la apropiación y desarrollo del conocimiento, propiciando espacios de investigación y creatividad que generen cambios de actitud en beneficio del crecimiento socio-cultural.
+          </p>
+          <h1>VISIÓN</h1>
+          <p>En el año 2021 el Instituto Pegagógico ACME será reconocido generador de espacios de investigación y desarrollo de la creatividad; donde sus educandos demuestren eficiencia académica y asuman con responsabilidad e innovación cambios socio-culturales en beneficio de nuestro desarrollo regional y nacional.
+          </p>
+        </div>
+        <div id="slider-ins" class="carousel slide" data-ride="carousel">
+          <!-- Indicadores -->
+          <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+            <li data-target="#myCarousel" data-slide-to="3"></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="item active">
+              <img src="IMAGENES/slidershow/col1.jpeg" alt="cl1" style="width:100%; height:400px;">
+            </div>
+            <div class="item">
+              <img src="IMAGENES/slidershow/Col2.jpg" alt="cl2" style="width:100%; height:400px;">
+            </div>
+            <div class="item">
+              <img src="IMAGENES/slidershow/col3.jpg" alt="cl3" style="width:100%; height:400px;">
+            </div>
+            <div class="item">
+              <img src="IMAGENES/slidershow/col5.jpg" alt="cl5" style="width:100%; height:400px;">
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <div id="admisiones" class="tabcontent">
+
+      <div class="section">
+        <div class="sup">
+          <h1><span>Pasos a seguir para la inscripción</span></h1>
+          <div class="pasos">
+            <div class="paso1">
+              <figure>
+                <img src="IMAGENES/asignment.svg">
+                <h3><span>1</span></h3>
+                <figcaption><strong>Agende su cita</strong> registrando sus datos y en breve nos <strong>comunicaremos con usted, </strong>
+                  si desea puede comunicarse al número<strong> (+57)3204917041</strong></figcaption>
+              </figure>
+            </div>
+            <div class="paso2">
+              <figure>
+                <img src="IMAGENES/create.svg">
+                <h3><span>2</span></h3>
+                <figcaption><strong>Diligencie el formulario.</strong>Una vez completado, <strong>descarguelo, imprimalo y firmelo.</strong></figcaption>
+              </figure>
+            </div>
+            <div class="paso3">
+              <figure>
+                <img src="IMAGENES/group.svg">
+                <h3><span>3 </span></h3>
+                <figcaption><strong>Asista junto con el estudiante</strong> a la cita en la fecha y hora programada.
+                  <strong>No olvide traer el formulario impreso.</strong></figcaption>
+              </figure>
+            </div>
+          </div>
+        </div>
+        <div class="inf">
+          <h1><span>Documentos de </span><strong>Inscripción</strong></h1>
+          <div class="btn1">
+          <input type="button" name="rgdatos" value="Registro de datos">
+          </div>
+          <div class="btn2">
+            <input type="button" name="formul" value="Formulario">
+          </div>
+          <div class="btn3">
+            <input type="button" name="desc" value="Descuentos">
+          </div>
+          <p class="termino"><span>*El costo de proceso de admisión es de $70.000 (COP)</span></p>
+        </div>
+      </div>
+
+    </div>
+
+    <div id="cronograma" class="tabcontent">
+
+      <div class="section">
+        <div class="mes">
+          <ul>
+            <li class="prev">&#10094;</li>
+            <li class="next">&#10095;</li>
+            <li>Febrero<br><span style="font-size:18px">2020</span></li>
+          </ul>
+        </div>
+        <ul class="semana">
+          <li>Dom</li><li>Lun</li><li>Mar</li>
+          <li>Mie</li><li>Jue</li><li>Vie</li><li>Sab</li>
+        </ul>
+        <ul class="dias" id="dias">
+          <li></li><li></li><li></li><li></li><li></li><li></li>
+          <li>1</li><li>2<br>Bazar estudiantil</li>
+          <li>3</li><li>4</li><li>5</li><li>6</li><li id="di7">7</li>
+          <li>8</li><li>9</li><li>10</li><li>11</li><li>12</li>
+          <li>13</li><li id="di14"><span class="active">14</span><br>Dia de San Valentin</li>
+          <li>15</li><li>16</li><li>17</li><li>18</li>
+          <li>19</li><li>20</li><li>21</li><li>22</li>
+          <li>23</li><li>24</li><li id="di25">25<br>Reunión padres de familia</li>
+          <li>26</li><li>27</li><li>28</li><li>29</li>
+      </div>
+
+    </div>
+
+    <div id="servicios" class="tabcontent">
+
+      <div class="section">
+        <div class="sec1">
+          <div class="r1">
+            <h2><span>UNIFORMES</span></h2>
+            <br>
+            <p><strong>DISEÑOS ASORTEX S.A.</strong></p>
+            <p>Atención al público con sede en el colegio</p>
+            <p>Tel. 3014678567 - 3217764530 <br> asortex@gmail.com</p>
+          </div>
+          <div class="r2">
+            <h2><span>RESTAURANTE</span></h2>
+            <br>
+            <p>El colegio ACME ofrece e servicio de restaurante atendido por personal altamente calificado y distintos menús muy completos, balanceados
+            y certificados por nutricionistas nacionales e internacionales. Sabemos del alto gasto calórico al que se somenten nuestros estudiantes
+            en su jornada académica y deportiva por lo que nuestros menús tienen una dieta rica y balanceada en vitaminas y carbohidratos. El estudiante
+            puede disfrutar del almuerzo del día, acompañado de ensaladas y frutas</p>
+            <input type="button" name="btn_menu" value="Menú del mes">
+          </div>
+          <div class="r3">
+            <h2><span>RUTA ESCOLAR</span></h2>
+            <br>
+            <p>Zonas de rutas estimadas para el año <strong>2020</strong></p>
+            <br>
+            <input type="button" name="ruta" value="CLICK AQUI PARA ZONA DE RUTAS">
+          </div>
+        </div>
+
+        <div class="sec2">
+          <div class="r4">
+            <img src="IMAGENES/asor.jpg">
+          </div>
+          <div class="r5">
+            <img src="IMAGENES/restaur.jpg">
+          </div>
+          <div class="r6">
+            <img src="IMAGENES/ruta.jpg">
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <div id="acme" class="tabcontent">
+
+      <div class="section">
+        <div class="inf_sup">
+          <h1><span>INSTITUTO PEDAGÓGICO ACME</span></h1>
+          <br>
+          <div class="col-xs-12 col-sm-6">
+            <video controls>
+              <source src="Video/Sequ1.mp4" type="video/mp4">
+            </video>
+          </div>
+        </div>
+        <div class="inf_inf">
+          <div class="p1">
+            <h4>CALIDAD HUMANA, EQUIPO IDÓNEO Y PROFESIONAL</h4>
+            <p>Nuestros Directivos y Docentes son personas profesionales, con permanente actualización de conocimientos,
+              con competencias básicas, competencias laborales y competencias ciudadanas que les permiten transmitir a nuestros
+              estudiantes los conocimientos en cada una de las áreas de manera eficaz.<br><br>
+              Nuestros Directivos y Docentes son personas profesionales, con permanente actualización de conocimientos, con competencias
+              básicas, competencias laborales y competencias ciudadanas que les permiten transmitir a nuestros estudiantes los conocimientos
+              en cada una de las áreas de manera eficaz.</p>
+          </div>
+          <div class="p2">
+            <h4>BANDA MARCIAL</h4>
+            <p>Contamos con DOS BANDAS MARCIALES para desarrollar y potenciar las actividades físicas y artísticas de nuestros estudiantes
+              desde los grados 5 a 11. Las bandas cuentan con liras, instrumentos de viento y percusión entre otros, adaptados para cada una
+              de las edades de los estudiantes, con los que se interpretan diferentes tipos de melodías para desfiles dentro y fuera de la institución.</p>
+          </div>
+          <div class="p3">
+            <h4>DANZAS</h4>
+            <p>Con la danza le damos al estudiante las herramientas para que descubra el lenguaje corporal y la sensibilidad, desarrollando así
+              la creatividad, la fluidez, la originalidad, la capacidad de abstracción, los valores de respeto, trabajo en equipo y el diálogo.</p>
+          </div>
+          <div class="p4">
+            <h4>DEPORTES</h4>
+            <p>Nuestros Estudiantes disfrutan de amplias posibilidades deportivas al aire libre: cancha de futbol, 3 campos de futbol 7 en grama, 2 canchas
+              de voleibol, cancha múltiple para microfútbol y basquetbol, áreas recreativas con 2 parques infantiles y gimnasio al aire libre. Además,
+              contamos con espacio cubierto destinado a la práctica del taekwondo.</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <footer>
+      <div class="contenedor">
+        <div class="fot1">
+          <h2>Contactenos</h2>
+          <p>Correo electrónico: <em><u>admisiones@acme.edu.co</u></em></p></a>
+          <p>Telefono: (2)8245039</p>
+        </div>
+        <div class="fot2">
+          <h2>Visitenos</h2>
+          <p>Dirección: Calle 78N # 9.02 Popayán, Cauca</p>
+        </div>
+        <div class="fot3">
+          <h2>Siguenos en:</h2>
+          <img src="IMAGENES/instagram.png" width="50px" height="50px">
+          <img src="IMAGENES/FB.png" width="50px" height="50px">
+          <img src="IMAGENES/twitter.png" width="60px" height="60px">
+        </div>
+        <div class="fot4">
+          <p>Derechos Reservados &copy; ACME 2019-2020.</p>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+</body>
+</html>

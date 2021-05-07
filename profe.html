@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Nota de estudiantes</title>
+    <link rel="stylesheet" href="CSS/style_estudiante.css">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximun-scale=1.0, minimun-scale=1.0">
+    <link rel="stylesheet" href="fonts/style.css">
+    <script type="text/javascript" src="JAVASCRIPT/java_estudiante.js"></script>
+  </head>
+  <body>
+  <section id="contenedor">
+        <section id="informacion">
+            <section id="foto">
+              <img class="fotoperfil" src="IMAGENES/fotoprofe.jpeg" alt="fotoperfil">
+              <h1 id="estudiante">Profesor</h1>
+            </section>
+            <section id="datos">
+                <section id="caja-datos">
+                  <div class="user">
+                    <h1><span class="icon-user"></span>Juan Perez</h1>
+                  </div>
+                  <div class="cedula">
+                    <h1><span class="icon-v-card"></span>1085943036</h1>
+                  </div>
+                    <div class="fecha">
+                      <h1><span class="icon-calendar"></span>02/01/1985</h1>
+                    </div>
+                    <div class="direccion">
+                      <h1><span class="icon-direction"></span>Pitalito-Huila</h1>
+                    </div>
+                </section>
+
+              </section>
+            <section id="cerrar">
+              <a href="index.html"><img class="cerrarsesion" src="IMAGENES/cerrarsesion.png"></a>
+
+            </section>
+        </section>
+        <section id="buscador">
+          <input type="search" id="input-search" placeholder="Buscar estudiante">
+        </section>
+        <section id="notaprincipal">
+
+          <section id="notas">
+            <section id="caja-notas">
+              <section id="menu-periodos">
+                <ul>
+                  <li><a href="profe.html">Grado Sexto-Tres</a></li>
+                  <li><a href="profe2.html">Grado Septimo-Dos</a></li>
+                </ul>
+              </section>
+              <div class="tab">
+                <button class="tablinks" onclick="openCity(event, 'español')">Español</button>
+                <button class="tablinks" onclick="openCity(event, 'etica')">Etica y Valores</button>
+                <button class="tablinks" onclick="openCity(event, 'religion')">Religión</button>
+              </div>
+              <div id="español" class="tabcontent">
+                <div class="tabla">
+                  <table>
+                    <thead>
+                      <tr>
+                        <th>Estudiante</th><th>Notas</th><th>Observaciones</th>
+                      </tr>
+                    </thead>
+                    <tr>
+                      <td>Anderson Ferney</td><td><input type="search" id="input-note" placeholder="NOTA"></td><td><input type="search" id="input-obs" placeholder="Observaciones"></td>
+                    </tr>
+                    <tr>
+                      <td>Cristian Perez</td><td><input type="search" id="input-note" placeholder="NOTA"></td><td><input type="search" id="input-obs" placeholder="Observaciones"></td>
+                    </tr>
+                    <tr>
+                      <td>Lina Pacheco</td><td><input type="search" id="input-note" placeholder="NOTA"></td><td><input type="search" id="input-obs" placeholder="Observaciones"></td>
+                    </tr>
+                    <tr>
+                      <td>Laura Giron</td><td><input type="search" id="input-note" placeholder="NOTA"></td><td><input type="search" id="input-obs" placeholder="Observaciones"></td>
+                    </tr>
+                    <tr>
+                      <td>Jose Luis Rincon</td><td><input type="search" id="input-note" placeholder="NOTA"></td><td><input type="search" id="input-obs" placeholder="Observaciones"></td>
+                    </tr>
+                    <tr>
+                      <td>Edwin Castillo</td><td><input type="search" id="input-note" placeholder="NOTA"></td><td><input type="search" id="input-obs" placeholder="Observaciones"></td>
+                    </tr>
+                    <tr>
+                      <td>Juan Lopez</td><td><input type="search" id="input-note" placeholder="NOTA"></td><td><input type="search" id="input-obs" placeholder="Observaciones"></td>
+                    </tr>
+                    <tr>
+                      <td>Andres Mejia</td><td><input type="search" id="input-note" placeholder="NOTA"></td><td><input type="search" id="input-obs" placeholder="Observaciones"></td>
+                    </tr>
+                  </table>
+                </div>
+              </div>
+
+              <div id="etica" class="tabcontent">
+                <div class="tabla">
+                  <table>
+                    <thead>
+                      <tr>
+                        <th>Estudiante</th><th>Notas</th><th>Observaciones</th>
+                      </tr>
+                    </thead>
+                    <tr>
+                      <td>Anderson Burgos</td><td><input type="search" id="input-note" placeholder="NOTA"></td><td><input type="search" id="input-obs" placeholder="Observaciones"></td>
+                    </tr>
+                    <tr>
+                      <td>Cristian Perez</td><td><input type="search" id="input-note" placeholder="NOTA"></td><td><input type="search" id="input-obs" placeholder="Observaciones"></td>
+                    </tr>
+                    <tr>
+                      <td>Lina Pacheco</td><td><input type="search" id="input-note" placeholder="NOTA"></td><td><input type="search" id="input-obs" placeholder="Observaciones"></td>
+                    </tr>
+                    <tr>
+                      <td>Laura Giron</td><td><input type="search" id="input-note" placeholder="NOTA"></td><td><input type="search" id="input-obs" placeholder="Observaciones"></td>
+                    </tr>
+                    <tr>
+                      <td>Jose Luis Rincon</td><td><input type="search" id="input-note" placeholder="NOTA"></td><td><input type="search" id="input-obs" placeholder="Observaciones"></td>
+                    </tr>
+                    <tr>
+                      <td>Edwin Castillo</td><td><input type="search" id="input-note" placeholder="NOTA"></td><td><input type="search" id="input-obs" placeholder="Observaciones"></td>
+                    </tr>
+                    <tr>
+                      <td>Juan Lopez</td><td><input type="search" id="input-note" placeholder="NOTA"></td><td><input type="search" id="input-obs" placeholder="Observaciones"></td>
+                    </tr>
+                    <tr>
+                      <td>Andres Mejia</td><td><input type="search" id="input-note" placeholder="NOTA"></td><td><input type="search" id="input-obs" placeholder="Observaciones"></td>
+                    </tr>
+                  </table>
+                </div>
+                </div>
+                <div id="religion" class="tabcontent">
+                  <div class="tabla">
+                    <table>
+                      <thead>
+                        <tr>
+                          <th>Estudiante</th><th>Notas</th><th>Observaciones</th>
+                        </tr>
+                      </thead>
+                      <tr>
+                        <td>Anderson Truqueto</td><td><input type="search" id="input-note" placeholder="NOTA"></td><td><input type="search" id="input-obs" placeholder="Observaciones"></td>
+                      </tr>
+                      <tr>
+                        <td>Cristian Perez</td><td><input type="search" id="input-note" placeholder="NOTA"></td><td><input type="search" id="input-obs" placeholder="Observaciones"></td>
+                      </tr>
+                      <tr>
+                        <td>Lina Pacheco</td><td><input type="search" id="input-note" placeholder="NOTA"></td><td><input type="search" id="input-obs" placeholder="Observaciones"></td>
+                      </tr>
+                      <tr>
+                        <td>Laura Giron</td><td><input type="search" id="input-note" placeholder="NOTA"></td><td><input type="search" id="input-obs" placeholder="Observaciones"></td>
+                      </tr>
+                      <tr>
+                        <td>Jose Luis Rincon</td><td><input type="search" id="input-note" placeholder="NOTA"></td><td><input type="search" id="input-obs" placeholder="Observaciones"></td>
+                      </tr>
+                      <tr>
+                        <td>Edwin Castillo</td><td><input type="search" id="input-note" placeholder="NOTA"></td><td><input type="search" id="input-obs" placeholder="Observaciones"></td>
+                      </tr>
+                      <tr>
+                        <td>Juan Lopez</td><td><input type="search" id="input-note" placeholder="NOTA"></td><td><input type="search" id="input-obs" placeholder="Observaciones"></td>
+                      </tr>
+                      <tr>
+                        <td>Andres Mejia</td><td><input type="search" id="input-note" placeholder="NOTA"></td><td><input type="search" id="input-obs" placeholder="Observaciones"></td>
+                      </tr>
+                    </table>
+                  </div>
+                  </div>
+          </section>
+
+        </section>
+        <section id="guardar">
+          <a href="index.html"><img class="guardarcambios" src="IMAGENES/guardar.png"></a>
+        </section>
+
+        <footer>
+          <p>Derechos reservados &copy; ACME 2019-2020.</p>
+        </footer>
+  </section>
+  </body>
+</html>

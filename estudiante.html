@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Cuenta de estudiantes</title>
+    <link rel="stylesheet" href="CSS/style_estudiante.css">
+    <link rel="stylesheet" href="fonts/style.css">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximun-scale=1.0, minimun-scale=1.0">
+    <script type="text/javascript" src="JAVASCRIPT/java_estudiante.js"></script>
+  </head>
+  <body>
+  <section id="contenedor">
+        <section id="informacion">
+            <section id="foto">
+              <img class="fotoperfil" src="IMAGENES/fotoperfil.jpg" alt="fotoperfil">
+              <h1 id="estudiante">Estudiante</h1>
+            </section>
+            <section id="datos">
+                <section id="caja-datos">
+                  <div class="user">
+                    <h1><span class="icon-user"></span>Pepito Perez</h1>
+                  </div>
+                  <div class="cedula">
+                    <h1><span class="icon-v-card"></span>1026458978</h1>
+                  </div>
+                    <div class="fecha">
+                      <h1><span class="icon-calendar"></span>10/10/2005</h1>
+                    </div>
+                    <div class="direccion">
+                      <h1><span class="icon-direction"></span>Pitalito</h1>
+                    </div>
+                </section>
+
+              </section>
+            <section id="cerrar">
+              <a href="index.html"><img class="cerrarsesion" src="IMAGENES/cerrarsesion.png"></a>
+
+            </section>
+        </section>
+
+        <section id="notas-estudiante">
+              <section id="caja-notas-estudiante">
+                <div class="tab">
+                  <button class="tablinks" onclick="openCity(event, 'primer-periodo')">Primer periodo(25%)</button>
+                  <button class="tablinks" onclick="openCity(event, 'segundo-periodo')">Segundo periodo(25%)</button>
+                  <button class="tablinks" onclick="openCity(event, 'tercer-periodo')">Tercer periodo(25%)</button>
+                  <button class="tablinks" onclick="openCity(event, 'cuarto-periodo')">Cuarto periodo(25%)</button>
+                  <button class="tablinks" onclick="openCity(event, 'faltas')">Faltas</button>
+                </div>
+
+                <div id="primer-periodo" class="tabcontent">
+                  <table>
+                    <thead>
+                      <tr>
+                        <th>Primer perido</th><th>Notas</th><th>Observaciones</th>
+                      </tr>
+                    </thead>
+                    <tr>
+                      <td>Matematicas</td><td>3.8</td><td>Buen desempeño</td>
+                    </tr>
+                    <tr>
+                      <td>Religión</td><td>4.6</td><td>Muy atento</td>
+                    </tr>
+                    <tr>
+                      <td>Fisica</td><td>4.0</td><td>Inteligente</td>
+                    </tr>
+                    <tr>
+                      <td>Quimica</td><td>3.7</td><td>Sobresaliente</td>
+                    </tr>
+                    <tr>
+                      <td>Artística</td><td>4.8</td><td>Excelente</td>
+                    </tr>
+                    <tr>
+                      <td>Biología</td><td>4.6</td><td>Inteligente</td>
+                    </tr>
+                    <tr>
+                      <td>Español</td><td>3.9</td><td>Difucultad lectura</td>
+                    </tr>
+                    <tr>
+                      <td>Etica y Valores</td><td>4.9</td><td>Aplicado</td>
+                    </tr>
+                    <tr>
+                      <td>Cátedra de la paz</td><td>4.2</td><td>Muestra interes</td>
+                    </tr>
+                  </table>
+                </div>
+
+                <div id="segundo-periodo" class="tabcontent">
+                  <table>
+                    <thead>
+                      <tr>
+                        <th>Segundo perido</th><th>Notas</th><th>Observaciones</th>
+                      </tr>
+                    </thead>
+                    <tr>
+                      <td>Matematicas</td><td>4.1</td><td>Buen desempeño</td>
+                    </tr>
+                    <tr>
+                      <td>Religión</td><td>4.6</td><td>Muy atento</td>
+                    </tr>
+                    <tr>
+                      <td>Fisica</td><td>4.0</td><td>Inteligente</td>
+                    </tr>
+                    <tr>
+                      <td>Quimica</td><td>3.7</td><td>Sobresaliente</td>
+                    </tr>
+                    <tr>
+                      <td>Artística</td><td>4.8</td><td>Excelente</td>
+                    </tr>
+                    <tr>
+                      <td>Biología</td><td>4.6</td><td>Inteligente</td>
+                    </tr>
+                    <tr>
+                      <td>Español</td><td>3.9</td><td>Difucultad lectura</td>
+                    </tr>
+                    <tr>
+                      <td>Etica y Valores</td><td>4.9</td><td>Aplicado</td>
+                    </tr>
+                    <tr>
+                      <td>Cátedra de la paz</td><td>4.2</td><td>Muestra interes</td>
+                    </tr>
+                  </table>
+                </div>
+
+                <div id="tercer-periodo" class="tabcontent">
+                  <table>
+                    <thead>
+                      <tr>
+                        <th>Tercer perido</th><th>Notas</th><th>Observaciones</th>
+                      </tr>
+                    </thead>
+                    <tr>
+                      <td>Matematicas</td><td>3.5</td><td>Buen desempeño</td>
+                    </tr>
+                    <tr>
+                      <td>Religión</td><td>4.6</td><td>Muy atento</td>
+                    </tr>
+                    <tr>
+                      <td>Fisica</td><td>4.0</td><td>Inteligente</td>
+                    </tr>
+                    <tr>
+                      <td>Quimica</td><td>3.7</td><td>Sobresaliente</td>
+                    </tr>
+                    <tr>
+                      <td>Artística</td><td>4.8</td><td>Excelente</td>
+                    </tr>
+                    <tr>
+                      <td>Biología</td><td>4.6</td><td>Inteligente</td>
+                    </tr>
+                    <tr>
+                      <td>Español</td><td>3.9</td><td>Difucultad lectura</td>
+                    </tr>
+                    <tr>
+                      <td>Etica y Valores</td><td>4.9</td><td>Aplicado</td>
+                    </tr>
+                    <tr>
+                      <td>Cátedra de la paz</td><td>4.2</td><td>Muestra interes</td>
+                    </tr>
+                  </table>
+                </div>
+
+                  <div id="cuarto-periodo" class="tabcontent">
+                    <table>
+                      <thead>
+                        <tr>
+                          <th>Cuarto perido</th><th>Notas</th><th>Observaciones</th>
+                        </tr>
+                      </thead>
+                      <tr>
+                        <td>Matematicas</td><td>4.5</td><td>Buen desempeño</td>
+                      </tr>
+                      <tr>
+                        <td>Religión</td><td>4.6</td><td>Muy atento</td>
+                      </tr>
+                      <tr>
+                        <td>Fisica</td><td>4.0</td><td>Inteligente</td>
+                      </tr>
+                      <tr>
+                        <td>Quimica</td><td>3.7</td><td>Sobresaliente</td>
+                      </tr>
+                      <tr>
+                        <td>Artística</td><td>4.8</td><td>Excelente</td>
+                      </tr>
+                      <tr>
+                        <td>Biología</td><td>4.6</td><td>Inteligente</td>
+                      </tr>
+                      <tr>
+                        <td>Español</td><td>3.9</td><td>Difucultad lectura</td>
+                      </tr>
+                      <tr>
+                        <td>Etica y Valores</td><td>4.9</td><td>Aplicado</td>
+                      </tr>
+                      <tr>
+                        <td>Cátedra de la paz</td><td>4.2</td><td>Muestra interes</td>
+                      </tr>
+                    </table>
+                  </div>
+                  <div id="faltas" class="tabcontent">
+                    <table>
+                      <thead>
+                        <tr>
+                          <th>Materias</th><th>Feb</th><th>Mar</th><th>Abr</th><th>May</th><th>Jun</th><th>Jul</th><th>Ago</th><th>Sep</th><th>Oct</th><th>Nov</th>
+                        </tr>
+                      </thead>
+                      <tr>
+                        <td>Matematicas</td><td>4</td><td>1</td><td>0</td><td>0</td><td>1</td><td>0</td><td>0</td><td>1</td><td>0</td><td>1</td>
+                      </tr>
+                      <tr>
+                        <td>Religión</td><td>2</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td>
+                      </tr>
+                      <tr>
+                        <td>Fisica</td><td>2</td><td>1</td><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td>
+                      </tr>
+                      <tr>
+                        <td>Quimica</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>1</td>
+                      </tr>
+                      <tr>
+                        <td>Artística</td><td>3</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>2</td><td>1</td>
+                      </tr>
+                      <tr>
+                        <td>Bilogía</td><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>2</td><td>0</td><td>0</td><td>0</td>
+                      </tr>
+                      <tr>
+                        <td>Español</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>1</td>
+                      </tr>
+                      <tr>
+                        <td>Etica y valores</td><td>0</td><td>1</td><td>0</td><td>1</td><td>0</td><td>1</td><td>0</td><td>1</td><td>0</td><td>0</td>
+                      </tr>
+                      <tr>
+                        <td>Cátedra de paz</td><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>0</td><td>1</td><td>0</td>
+                      </tr>
+                    </table>
+                  </div>
+
+              </section>
+        </section>
+
+        <footer>
+          <p>Derechos reservados &copy; ACME 2019-2020.</p>
+        </footer>
+  </section>
+
+  </body>
+</html>
