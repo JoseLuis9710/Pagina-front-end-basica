@@ -1,0 +1,502 @@
+*{
+  border:0;
+  margin:0;
+  padding:0;
+}
+body{
+  background: rgba(160, 166, 169,0.1);
+}
+#contenedor{
+  background: #fff;
+  height: 100%;
+  width: 100%;
+  max-width: 1250px;
+  margin-right: auto;
+  margin-left: auto;
+}
+#informacion{
+  background-image: linear-gradient(to bottom right, purple, gray);
+  height: auto;
+  width: 100%;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+#informacion #foto{
+  background: rgba(255, 0, 0, 0);
+  width: 20%;
+  height: auto;
+  display: inline-block;
+  padding: 5px;
+  text-align: center;
+  vertical-align: top;
+  box-sizing: border-box;
+  min-width: 170px;
+}
+.fotoperfil{
+  width: 150px;
+  height: 150px;
+  padding-top: 20px;
+  border-radius: 4px;
+  display: inline-block;
+}
+#estudiante{
+  color:white;
+}
+#informacion #datos{
+  background: rgba(255, 0, 0, 0);
+  width: 60%;
+  height: auto;
+  padding: 40px;
+  display: inline-block;
+  text-align: center;
+  vertical-align: top;
+  box-sizing: border-box;
+  min-width: 300px;
+
+  }
+#informacion #datos #caja-datos{
+  background: #ebebeb;
+  width: 100%;
+  height: auto;
+  padding: 10px;
+  display: inline-block;
+  text-align: center;
+  vertical-align: top;
+  box-sizing: border-box;
+  min-width: 320px;
+  border-radius: 4px;
+}
+.user {
+  background: #D3D1D1;
+  width: 300px;
+  height: auto;
+  padding: 5px;
+  display: inline-block;
+  text-align: left;
+  border: 2px solid;
+  border-radius: 4px;
+  box-sizing: border-box;
+  }
+  .cedula{
+    background: #D3D1D1;
+    width: 300px;
+    height: auto;
+    padding: 5px;
+    display: inline-block;
+    text-align: left;
+    border: 2px solid;
+    border-radius: 4px;
+    box-sizing: border-box;
+    }
+    .fecha{
+      background: #D3D1D1;
+      width: 300px;
+      height: auto;
+      padding: 5px;
+      display: inline-block;
+      text-align: left;
+      border: 2px solid;
+      border-radius: 4px;
+      box-sizing: border-box;
+      }
+      .direccion{
+        background: #D3D1D1;
+        width: 300px;
+        height: auto;
+        padding: 5px;
+        display: inline-block;
+        text-align: left;
+        border: 2px solid;
+        border-radius: 4px;
+        box-sizing: border-box;
+        }
+              h1 span{
+                color: #000;
+                margin-right: 25px;
+                font-size: 30px;
+              }
+              h1{
+                font-size: 18px;
+                color:black;
+                font-family: "Lucida Sans",sans-serif;
+                font-weight: bold;
+
+              }
+
+#informacion #cerrar{
+  background: rgba(255, 0, 0, 0);
+  width: 19%;
+  height: auto;
+  display: inline-block;
+  text-align: center;
+  padding: 5px;
+  vertical-align: top;
+  box-sizing: border-box;
+}
+.cerrarsesion{
+  background-image: linear-gradient(to bottom right, gray, purple);
+  width: 50px;
+  height: 50px;
+  border-radius: 10px;
+  margin-top: 10px;
+  float:right;
+  margin-right: 10px;
+}
+.cerrarsesion:hover{
+  background-image: linear-gradient(to bottom right, gray, purple);
+  color: #ebfffb;
+  box-shadow: 1px 1px 20px rgba(255, 255, 255, 0.5);
+}
+#buscador{
+  background: rgba(160, 166, 169,0.3);
+  width: 100%;
+  height: 50px;
+  padding: 15px;
+  text-align: right;
+  box-sizing: border-box;
+  }
+#input-search{
+  width: 300px;
+  height: 30px;
+  font-family: sans-serif;
+  font-size: 18px;
+  text-indent: 10px;
+  border-radius: 4px;
+}
+#notaprincipal{
+  background: rgba(160, 166, 169,0.3);
+  height: auto;
+  width: 100%;
+  display: inline-block;
+  text-align: left;
+  vertical-align: top;
+  padding-top: 10px;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+#notaprincipal #notas{
+  background: rgba(160, 166, 169,0.1);
+  height: auto;
+  width: 75%;
+  text-align: center;
+  display: inline-block;
+  vertical-align: top;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+#notaprincipal #notas #menu-materias{
+  background: rgba(255.0.0.0.0);
+  height: auto;
+  width: 100%;
+  text-align: center;
+  display: inline-block;
+  border-radius: 4px;
+  vertical-align: top;
+  box-sizing: border-box;
+}
+#caja-notas{
+  background: rgba(255.0.0.0.0);
+  height: auto;
+  width: 100%;
+  text-align: center;
+  display: inline-block;
+  vertical-align: top;
+  border-radius: 4px;
+  box-sizing: border-box;
+
+}
+              #menu-periodos{
+                background: rgba(200, 200, 200, 0.1);
+              }
+            #menu-periodos ul{
+
+              list-style: none;
+              display: flex;
+              color:white;
+              font-family: sans-serif;
+              font-size: 18px;
+              }
+
+            #menu-periodos li{
+              flex-grow: 1;
+              text-align: center;
+              border: 1px solid white;
+              border-radius: 4px;
+            }
+
+            #menu-periodos a{
+              color:#000;
+            }
+            #menu-periodos a:hover{
+              background: rgba(0, 0, 0, 0.2);
+              text-shadow: 1px 1px 20px rgba(255, 255, 255, 1);
+            }
+            #menu-periodos li a{
+              display: block;
+              padding: 10px 10px;
+              text-decoration: none;
+            }
+
+.tabla{
+  background: #d3d3d3;
+  font-family: sans-serif;
+  font-size: 18px;
+  height: 450px;
+  width: 100%;
+  overflow-y: scroll;
+}
+
+
+table {
+  text-align:center;
+  border-collapse: collapse;
+  width: 100%;
+}
+th, td{
+  padding: 20px;
+
+}
+thead{
+  background-image: linear-gradient(to bottom right, purple, gray);
+  border-bottom: solid 5px #0F362D;
+
+  color:white;
+}
+tr:nth-child(even){
+  background-color: #ddd;
+}
+
+#input-note, #input-obs{
+  width: auto;
+  height: auto;
+  font-family: sans-serif;
+  font-size: 18px;
+  border-radius: 4px;
+  text-align: center;
+}
+#guardar{
+  background: rgba(160, 166, 169,0);
+  width: 100%;
+  height: 70px;
+  padding: 10px;
+  text-align: right;
+  box-sizing: border-box;
+  }
+  .guardarcambios{
+    background: rgba(160, 166, 169,0.3);
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    float:right;
+    margin-right: 10px;
+  }
+.guardarcambios:hover{
+    background: rgba(0, 0, 0, 0.2);
+    text-shadow: 1px 1px 20px rgba(255, 255, 255, 1);
+  }
+
+
+
+footer{
+  background-image: linear-gradient(to bottom right, gray, purple);
+  height: 50px;
+  width: 100%;
+  border-radius: 4px;
+}
+footer p{
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 18px;
+  padding: 10px;
+  color:#fff;
+}
+/*menu materias profesor*/
+#notaprincipal #menu-materias{
+  height: auto;
+  width: 17%;
+  text-align: left;
+  display: inline-block;
+  vertical-align: top;
+  border-radius: 4px;
+
+}
+
+#menu-materias {
+  background: rgba(255.0.0.0.0);
+  font-family: sans-serif;
+  font-weight: bold
+  }
+  #menu-materias ul{
+    list-style: none;
+
+
+  }
+  #menu-materias li a{
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    padding: 20px 10px;
+    background-image: linear-gradient(to bottom right, gray, purple);
+    border-radius: 4px;
+  }
+  #menu-materias li a:hover{
+    background: rgba(0, 0, 0, 0.2);
+    text-shadow: 1px 1px 20px rgba(255, 255, 255, 1);
+}
+/*----------------------Estudiante tabla -------------------------------------*/
+#notas-estudiante{
+  background: rgba(160, 166, 169,0.1);
+  height: auto;
+  width: 100%;
+  text-align: center;
+  display: inline-block;
+  vertical-align: top;
+  border-radius: 4px;
+  padding-left: 0px;
+  padding-top: 10px;
+}
+#caja-notas-estudiante{
+  background: rgba(255.0.0.0.0);
+  height: auto;
+  width: 74%;
+  text-align: center;
+  display: inline-block;
+  vertical-align: top;
+  border-radius: 4px;
+  padding: 10px;
+}
+#primer-periodo, #segundo-periodo, #tercer-periodo, #cuarto-periodo, #faltas{
+  background: #d3d3d3;
+  font-family: sans-serif;
+  font-size: 18px;
+  height: 420px;
+  width: 100%;
+  overflow: scroll;
+}
+
+
+table {
+  text-align:center;
+  border-collapse: collapse;
+  width: 100%;
+}
+th, td{
+  padding: 20px;
+
+}
+thead{
+  background-image: linear-gradient(to bottom right, purple, gray);
+  border-bottom: solid 5px #0F362D;
+
+  color:white;
+}
+tr:nth-child(even){
+  background-color: #ddd;
+}
+/*---------pagina resposniva profesor------------------------*/
+
+
+@media screen and (max-width: 800px){
+  body{
+    width: 100%;
+  }
+}
+@media screen and (max-width: 800px){
+  #notaprincipal #menu-materias{
+    width: 100%;
+  }
+}
+@media screen and (max-width: 800px){
+  #notaprincipal #notas {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 800px){
+  #informacion{
+    background-image: linear-gradient(to bottom right, purple, gray);
+    width: 100%;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 800px){
+  #informacion #foto {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 800px){
+  #informacion #datos {
+    background: #fff;
+    width: 100%;
+    padding: 0px;
+    border-radius: 4px;
+  }
+}
+@media screen and (max-width: 800px){
+  #informacion #cerrar{
+    width: 100%;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 800px){
+  #caja-datos{
+    width: 100%;
+    text-align: center;
+  }
+}
+/*---------------menu con java------------------------------------*/
+/* Style the tab */
+.tab {
+  overflow: hidden;
+  border: 1px solid white;
+  background-color: #f1f1f1;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+  background-color: inherit;
+  float: center;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+  font-family: sans-serif;
+  border-radius: 4px;
+  flex-grow: 1;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+  box-sizing: border-box;
+}
+/*---------pagina resposniva estudiante------------------------*/
+@media screen and (max-width: 800px){
+  #notas-estudiante {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 800px){
+  .tab button{
+    width: 100%;
+    text-align: center;
+  }
+}
